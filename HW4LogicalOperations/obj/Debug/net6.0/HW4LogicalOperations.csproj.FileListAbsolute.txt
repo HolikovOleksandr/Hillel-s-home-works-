@@ -1,0 +1,15 @@
+D:\C#\Projects\HW4LogicalOperations\bin\Debug\net6.0\HW4LogicalOperations.exe
+D:\C#\Projects\HW4LogicalOperations\bin\Debug\net6.0\HW4LogicalOperations.deps.json
+D:\C#\Projects\HW4LogicalOperations\bin\Debug\net6.0\HW4LogicalOperations.runtimeconfig.json
+D:\C#\Projects\HW4LogicalOperations\bin\Debug\net6.0\HW4LogicalOperations.dll
+D:\C#\Projects\HW4LogicalOperations\bin\Debug\net6.0\HW4LogicalOperations.pdb
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.csproj.AssemblyReference.cache
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.AssemblyInfoInputs.cache
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.AssemblyInfo.cs
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.csproj.CoreCompileInputs.cache
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.dll
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\refint\HW4LogicalOperations.dll
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.pdb
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\HW4LogicalOperations.genruntimeconfig.cache
+D:\C#\Projects\HW4LogicalOperations\obj\Debug\net6.0\ref\HW4LogicalOperations.dll
