@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Hillels_Home_Works\\HW2Variables\\HomeWorks.csproj": {}
+    "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\HW3IfElse.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Hillels_Home_Works\\HW2Variables\\HomeWorks.csproj": {
+    "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\HW3IfElse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Hillels_Home_Works\\HW2Variables\\HomeWorks.csproj",
-        "projectName": "HomeWorks",
-        "projectPath": "D:\\Projects\\Hillels_Home_Works\\HW2Variables\\HomeWorks.csproj",
+        "projectUniqueName": "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\HW3IfElse.csproj",
+        "projectName": "HW3IfElse",
+        "projectPath": "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\HW3IfElse.csproj",
         "packagesPath": "C:\\Users\\Les\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Hillels_Home_Works\\HW2Variables\\obj\\",
+        "outputPath": "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Les\\AppData\\Roaming\\NuGet\\NuGet.Config"

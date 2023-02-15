@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW2Variables\bin\Debug\net7.0\HomeWorks.exe
+D:\Projects\Hillels_Home_Works\HW2Variables\bin\Debug\net7.0\HomeWorks.deps.json
+D:\Projects\Hillels_Home_Works\HW2Variables\bin\Debug\net7.0\HomeWorks.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW2Variables\bin\Debug\net7.0\HomeWorks.dll
+D:\Projects\Hillels_Home_Works\HW2Variables\bin\Debug\net7.0\HomeWorks.pdb
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.dll
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\refint\HomeWorks.dll
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.pdb
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\HomeWorks.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW2Variables\obj\Debug\net7.0\ref\HomeWorks.dll
