@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW5Cycles\bin\Debug\net7.0\HW5Cycles.exe
+D:\Projects\Hillels_Home_Works\HW5Cycles\bin\Debug\net7.0\HW5Cycles.deps.json
+D:\Projects\Hillels_Home_Works\HW5Cycles\bin\Debug\net7.0\HW5Cycles.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW5Cycles\bin\Debug\net7.0\HW5Cycles.dll
+D:\Projects\Hillels_Home_Works\HW5Cycles\bin\Debug\net7.0\HW5Cycles.pdb
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.dll
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\refint\HW5Cycles.dll
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.pdb
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\HW5Cycles.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW5Cycles\obj\Debug\net7.0\ref\HW5Cycles.dll
