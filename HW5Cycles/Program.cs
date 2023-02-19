@@ -1,30 +1,25 @@
 ﻿public class Program
 {
-    private static void Main(string[] args)
+    static void Main(string[] args)
     {
-        // Console.WriteLine("Write symbol and press ENTER: ");
-        // char _symbol = char.Parse(Console.ReadLine());
-        char _symbol = '*';
+        Console.WriteLine("Hello! Write symbol and press ENTER: ");
+        char _symbol = char.Parse(Console.ReadLine());
 
-        // Console.WriteLine("Write stroke count and press ENTER: ");
-        // int _strokeCount = int.Parse(Console.ReadLine());
-        int _strokeCount = 5;
+        Console.WriteLine("Hello! Write number and press ENTER: ");
+        int _number = int.Parse(Console.ReadLine());
 
-
-        for (int i = 0; i < _strokeCount; i++)
+        for (int i = 1; i <= _number; i++)
         {
-            for (int j = 0; j <= i; j++)
-            {
-                Console.Write(_symbol);
-                
-                while (j == _strokeCount)
-                {
-                    for (int k = _strokeCount - 1; k > 0; k--) Console.Write(_symbol);
-                    Console.WriteLine();
-                }
-            }
+            for (int j = 1; j <= _number - i; j++) Console.Write(" ");
+            for (int j = 1; j <= 2 * i - 1; j++) Console.Write("*");
             Console.WriteLine();
+        }
 
+        for (int i = _number - 1; i >= 1; i--)
+        {
+            for (int j = 1; j <= _number - i; j++) Console.Write(" ");
+            for (int j = 1; j <= 2 * i - 1; j++) Console.Write("*");
+            Console.WriteLine();
         }
 
         Console.WriteLine("Press any key for leave from program");
