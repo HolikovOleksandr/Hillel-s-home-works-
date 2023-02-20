@@ -9,16 +9,16 @@ namespace IfElse
             string _finalAnswer = "";
             string _login;
 
-            Console.WriteLine("Hi. Pleace, enter login and press ENTER: ");
+            Console.WriteLine("Hi. Pleace, enter login: ");
             _login = Console.ReadLine().ToUpper();
 
-            if (_login == "") _finalAnswer = "Hello Anonimous";
+            if (_login == string.Empty) _finalAnswer = "Hello Anonimous";
             else if (_login == "USER" || _login == "ADMIN")
             {
-                Console.WriteLine("Enter password and press ENTER: ");
+                Console.WriteLine("Enter password: ");
                 string? password = Console.ReadLine();
 
-                Console.WriteLine("Confirm password and press ENTER: ");
+                Console.WriteLine("Confirm password: ");
                 string? confirmPassword = Console.ReadLine();
 
                 if (password == confirmPassword)

@@ -2,154 +2,63 @@
 {
     internal class Program
     {
+        static string _incorrectPassword = "Password is not correct";
+        static string _incorrectLogin = "Login is not correct";
+        static string? _finalAnswer;
+        static string? _login;
+
         static void Main(string[] args)
         {
-            string _positiveAnswer = "Successful!";
-            string _negativeAnswer = "Misstake!";
-            string _finalAnswer;
-            string? _login;
-            bool _result;
-
-            // Story 1
-            Console.WriteLine("Story 1");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-            _positiveAnswer = "Hello User";
-
-            switch (_login)
-            {
-                case "USER":
-                    {
-                        _result = CreateAndConfirmPassword();
-                        switch (_result)
-                        {
-                            case true:
-                                {
-                                    Console.WriteLine(_positiveAnswer);
-                                    break;
-                                }
-                            case false:
-                                {
-                                    Console.WriteLine(_negativeAnswer);
-                                    break;
-                                }
-                        }
-                        break;
-                    }
-                default:
-                    {
-                        Console.WriteLine(_negativeAnswer);
-                        break;
-                    }
-            }
-
-            // Story 2
-            Console.WriteLine("Story 2");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-            _positiveAnswer = "Hello Administrator";
-
-            switch (_login)
-            {
-                case "ADMIN":
-                    {
-                        _result = CreateAndConfirmPassword();
-                        switch (_result)
-                        {
-                            case true:
-                                {
-                                    Console.WriteLine(_positiveAnswer);
-                                    break;
-                                }
-                            case false:
-                                {
-                                    Console.WriteLine(_negativeAnswer);
-                                    break;
-                                }
-                        }
-                        break;
-                    }
-                default:
-                    {
-                        Console.WriteLine(_negativeAnswer);
-                        break;
-                    }
-            }
-
-            // Story 3
-            Console.WriteLine("Story 3");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-            _positiveAnswer = "Hello Anonimous";
+            Console.WriteLine("Hi. Pleace, enter login: ");
+            _login = Console.ReadLine()?.ToUpper();
 
             switch (_login)
             {
                 case "":
                     {
-                        Console.WriteLine(_positiveAnswer);
+                        _finalAnswer = "Hello, Anonimus";
                         break;
                     }
-            }
-
-
-            // Story 4
-            Console.WriteLine("Story 4");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-            _positiveAnswer = "Hello User";
-            _negativeAnswer = "Password is not correct";
-
-            switch (_login)
-            {
-                case "ADMIN" or "USER" :
+                case "USER":
                     {
-                        _result = CreateAndConfirmPassword();
-                        switch (_result)
-                        {
-                            case true:
-                                {
-                                    Console.WriteLine(_positiveAnswer);
-                                    break;
-                                }
-                            case false:
-                                {
-                                    Console.WriteLine(_negativeAnswer);
-                                    break;
-                                }
-                        }
+                        bool vetifyPassword = CreateAndVerifyPassword();
+                        _finalAnswer = vetifyPassword ? "Hello User" : _incorrectPassword;
+                        break;
+                    }
+                case "ADMIN":
+                    {
+                        bool vetifyPassword = CreateAndVerifyPassword();
+                        _finalAnswer = vetifyPassword ? "Hello Administrator" : _incorrectPassword;
                         break;
                     }
                 default:
                     {
-                        Console.WriteLine(_negativeAnswer);
+                        _finalAnswer = _incorrectLogin;
                         break;
                     }
             }
+            Console.WriteLine(_finalAnswer);
 
-
+            Console.WriteLine("Press any button to exit the program");
+            Console.ReadLine();
         }
 
-
-
-
-
-
-
-
-
-
-        static bool CreateAndConfirmPassword()
+        /// <summary>It asks to enter a password and confirm it</summary>
+        /// <returns>Helper variable to Checks the success of password confirmation</returns>
+        static bool CreateAndVerifyPassword()
         {
             Console.WriteLine("Enter password: ");
             string? password = Console.ReadLine();
 
             Console.WriteLine("Confirm password: ");
-            string? confirmPassword = Console.ReadLine();
+            string? confirm = Console.ReadLine();
 
-            bool result = password == confirmPassword ? true : false;
-            return result;
+            bool result;
+
+            return result = password != string.Empty && confirm != string.Empty
+                ? password == confirm ? true : false
+                : false;
         }
-
     }
 }
 

@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW3Ternary\bin\Debug\net7.0\HW3Ternary.exe
+D:\Projects\Hillels_Home_Works\HW3Ternary\bin\Debug\net7.0\HW3Ternary.deps.json
+D:\Projects\Hillels_Home_Works\HW3Ternary\bin\Debug\net7.0\HW3Ternary.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW3Ternary\bin\Debug\net7.0\HW3Ternary.dll
+D:\Projects\Hillels_Home_Works\HW3Ternary\bin\Debug\net7.0\HW3Ternary.pdb
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.dll
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\refint\HW3Ternary.dll
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.pdb
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\HW3Ternary.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW3Ternary\obj\Debug\net7.0\ref\HW3Ternary.dll

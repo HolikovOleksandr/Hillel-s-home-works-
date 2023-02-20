@@ -1,87 +1,51 @@
-﻿namespace HW3Ternary
+﻿internal class Program
 {
-    internal class Program
+    static string _incorrectPassword = "Password is not correct";
+    static string _incorrectLogin = "Login is not correct";
+    static string? _finalAnswer;
+    static string? _login;
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            // TERNARY
-            string _positiveAnswer = "Successful!";
-            string _negativeAnswer = "Misstake!";
-            string _finalAnswer;
-            string? _login;
-            bool result;
+        Console.WriteLine("Hi. Pleace, enter login: ");
+        _login = Console.ReadLine()?.ToUpper();
 
+        _finalAnswer = _login == string.Empty
+            ? _finalAnswer = "Hello Anonimous"
+            : _finalAnswer = CreateAndVerifyPassword()
+                ? UserOrAdminChecking(_login)
+                : _incorrectPassword;
 
-            // Story 1
-            Console.WriteLine("Story 1");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-            _positiveAnswer = "Hello User";
+        Console.WriteLine(_finalAnswer);
 
-            if (_login == "USER")
-            {
-                result = CreateAndConfirmPassword();
-                _finalAnswer = result ? _positiveAnswer : _negativeAnswer;
-                Console.WriteLine(_finalAnswer);
-            }
-            else Console.WriteLine(_negativeAnswer);
+        Console.WriteLine("Press any button for close program");
+        Console.ReadKey();
+    }
 
+    /// <summary>Checks was enter USER or ADMIN login </summary>
+    /// <param name="result">A string variable entered by the user</param>
+    /// <returns>Say hello to the user or administrator</returns>
+    static string UserOrAdminChecking(string result)
+    {
+        if (result == "USER") return _login = "Hello User";
+        else if (result == "ADMIN") return _login = "Hello Administrator";
+        else return result = _incorrectLogin;
+    }
 
-            // Story 2
-            Console.WriteLine("Story 2");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-            _positiveAnswer = "Hello Administrator";
+    /// <summary>It asks to enter a password and confirm it</summary>
+    /// <returns>Helper variable to Checks the success of password confirmation</returns>
+    static bool CreateAndVerifyPassword()
+    {
+        Console.WriteLine("Enter password: ");
+        string? password = Console.ReadLine();
 
-            if (_login == "ADMIN")
-            {
-                result = CreateAndConfirmPassword();
-                _finalAnswer = result ? _positiveAnswer : _negativeAnswer;
-                Console.WriteLine(_finalAnswer);
-            }
-            else Console.WriteLine(_negativeAnswer);
+        Console.WriteLine("Confirm password: ");
+        string? confirm = Console.ReadLine();
 
+        bool result;
 
-            // story 3
-            Console.WriteLine("Story 3");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine();
-            _positiveAnswer = "Hello Anonimous";
-
-            _finalAnswer = _login == "" ? _positiveAnswer : _negativeAnswer;
-            Console.WriteLine(_finalAnswer);
-
-
-            // Story 4
-            _negativeAnswer = "Password is not correct";
-
-            Console.WriteLine("Story 4");
-            Console.WriteLine("Enter login: ");
-            _login = Console.ReadLine().ToUpper();
-
-            if (_login == "ADMIN" || _login == "USER")
-            {
-                result = CreateAndConfirmPassword();
-                _finalAnswer = result ? _positiveAnswer : _negativeAnswer;
-                Console.WriteLine(_finalAnswer);
-            }
-            else Console.WriteLine(_negativeAnswer);
-
-            Console.WriteLine(_negativeAnswer);
-        }
-
-
-
-        static bool CreateAndConfirmPassword()
-        {
-            Console.WriteLine("Enter password: ");
-            string? password = Console.ReadLine();
-
-            Console.WriteLine("Confirm password: ");
-            string? confirmPassword = Console.ReadLine();
-
-            bool result = password == confirmPassword ? true : false;
-            return result;
-        }
+        return result = password != string.Empty && confirm != string.Empty
+            ? password == confirm ? true : false 
+            : false;
     }
 }

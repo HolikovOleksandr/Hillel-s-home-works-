@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW3Switch\bin\Debug\net7.0\HW3Switch.exe
+D:\Projects\Hillels_Home_Works\HW3Switch\bin\Debug\net7.0\HW3Switch.deps.json
+D:\Projects\Hillels_Home_Works\HW3Switch\bin\Debug\net7.0\HW3Switch.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW3Switch\bin\Debug\net7.0\HW3Switch.dll
+D:\Projects\Hillels_Home_Works\HW3Switch\bin\Debug\net7.0\HW3Switch.pdb
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.dll
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\refint\HW3Switch.dll
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.pdb
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\HW3Switch.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW3Switch\obj\Debug\net7.0\ref\HW3Switch.dll

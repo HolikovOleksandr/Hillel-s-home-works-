@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\HW3IfElse.csproj",
-      "projectName": "HW3IfElse",
-      "projectPath": "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\HW3IfElse.csproj",
+      "projectUniqueName": "D:\\Projects\\Hillels_Home_Works\\HW3Ternary\\HW3Ternary.csproj",
+      "projectName": "HW3Ternary",
+      "projectPath": "D:\\Projects\\Hillels_Home_Works\\HW3Ternary\\HW3Ternary.csproj",
       "packagesPath": "C:\\Users\\Les\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Hillels_Home_Works\\HW3IfElse\\obj\\",
+      "outputPath": "D:\\Projects\\Hillels_Home_Works\\HW3Ternary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Les\\AppData\\Roaming\\NuGet\\NuGet.Config",
