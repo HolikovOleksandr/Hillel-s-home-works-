@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW6Methods\bin\Debug\net7.0\HW6Methods.exe
+D:\Projects\Hillels_Home_Works\HW6Methods\bin\Debug\net7.0\HW6Methods.deps.json
+D:\Projects\Hillels_Home_Works\HW6Methods\bin\Debug\net7.0\HW6Methods.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW6Methods\bin\Debug\net7.0\HW6Methods.dll
+D:\Projects\Hillels_Home_Works\HW6Methods\bin\Debug\net7.0\HW6Methods.pdb
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.dll
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\refint\HW6Methods.dll
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.pdb
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\HW6Methods.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW6Methods\obj\Debug\net7.0\ref\HW6Methods.dll
