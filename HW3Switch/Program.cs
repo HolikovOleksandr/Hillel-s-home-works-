@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        const string SEKRET_PASSWORD = "PASSWORD";
         static string _incorrectPassword = "Password is not correct";
         static string _incorrectLogin = "Login is not correct";
         static string? _finalAnswer;
@@ -21,13 +22,13 @@
                     }
                 case "USER":
                     {
-                        bool vetifyPassword = CreateAndVerifyPassword();
+                        bool vetifyPassword = VerifyPassword();
                         _finalAnswer = vetifyPassword ? "Hello User" : _incorrectPassword;
                         break;
                     }
                 case "ADMIN":
                     {
-                        bool vetifyPassword = CreateAndVerifyPassword();
+                        bool vetifyPassword = VerifyPassword();
                         _finalAnswer = vetifyPassword ? "Hello Administrator" : _incorrectPassword;
                         break;
                     }
@@ -45,18 +46,14 @@
 
         /// <summary>It asks to enter a password and confirm it</summary>
         /// <returns>Helper variable to Checks the success of password confirmation</returns>
-        static bool CreateAndVerifyPassword()
+        static bool VerifyPassword()
         {
             Console.WriteLine("Enter password: ");
-            string? password = Console.ReadLine();
-
-            Console.WriteLine("Confirm password: ");
-            string? confirm = Console.ReadLine();
+            string? password = Console.ReadLine().ToUpper();
 
             bool result;
-
-            return result = password != string.Empty && confirm != string.Empty
-                ? password == confirm ? true : false
+            return result = password != string.Empty
+                ? (password == SEKRET_PASSWORD ? true : false)
                 : false;
         }
     }

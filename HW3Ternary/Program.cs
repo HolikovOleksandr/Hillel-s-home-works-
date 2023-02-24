@@ -1,5 +1,8 @@
-﻿internal class Program
+﻿using System.Security;
+
+internal class Program
 {
+    const string SEKRET_PASSWORD = "PASSWORD";
     static string _incorrectPassword = "Password is not correct";
     static string _incorrectLogin = "Login is not correct";
     static string? _finalAnswer;
@@ -12,9 +15,9 @@
 
         _finalAnswer = _login == string.Empty
             ? _finalAnswer = "Hello Anonimous"
-            : _finalAnswer = CreateAndVerifyPassword()
+            : _finalAnswer = (VerifyPassword()
                 ? UserOrAdminChecking(_login)
-                : _incorrectPassword;
+                : _incorrectPassword);
 
         Console.WriteLine(_finalAnswer);
 
@@ -32,20 +35,41 @@
         else return result = _incorrectLogin;
     }
 
-    /// <summary>It asks to enter a password and confirm it</summary>
-    /// <returns>Helper variable to Checks the success of password confirmation</returns>
-    static bool CreateAndVerifyPassword()
+    /// <summary>It asks to confirm password</summary>
+    static bool VerifyPassword()
     {
-        Console.WriteLine("Enter password: ");
-        string? password = Console.ReadLine();
-
         Console.WriteLine("Confirm password: ");
-        string? confirm = Console.ReadLine();
+        string? password = Console.ReadLine().ToUpper();
 
         bool result;
-
-        return result = password != string.Empty && confirm != string.Empty
-            ? password == confirm ? true : false 
+        return result = password != string.Empty
+            ? (password == SEKRET_PASSWORD ? true : false)
             : false;
     }
+
+    // private static SecureString MaskInputString()
+    // {
+    //     System.Console.WriteLine("Confirm password: ");
+    //     SecureString pass = new SecureString();
+    //     ConsoleKeyInfo keyInfo;
+
+    //     do
+    //     {
+    //         keyInfo = Console.ReadKey(true);
+    //         if (!char.IsControl(keyInfo.KeyChar))
+    //         {
+    //             pass.AppendChar(keyInfo.KeyChar);
+    //             Console.WriteLine("*");
+    //         }
+    //         else if (keyInfo.Key != ConsoleKey.Backspace && pass.Length > 0)
+    //         {
+    //             pass.RemoveAt(pass.Length - 1);
+    //             Console.Write("\b \b");
+    //         }
+    //     }
+    //     while (keyInfo.Key != ConsoleKey.Enter);
+    //     {
+    //         return pass;
+    //     }
+    // }
 }

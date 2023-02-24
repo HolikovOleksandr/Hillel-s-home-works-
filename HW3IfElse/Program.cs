@@ -4,6 +4,7 @@ namespace IfElse
     {
         static void Main(string[] args)
         {
+            const string SEKRET_PASSWORD = "PASSWORD";
             string _incorrectPassword = "Password is not correct";
             string _incorrectLogin = "Login is not correct";
             string _finalAnswer = "";
@@ -15,13 +16,10 @@ namespace IfElse
             if (_login == string.Empty) _finalAnswer = "Hello Anonimous";
             else if (_login == "USER" || _login == "ADMIN")
             {
-                Console.WriteLine("Enter password: ");
-                string? password = Console.ReadLine();
-
                 Console.WriteLine("Confirm password: ");
                 string? confirmPassword = Console.ReadLine();
 
-                if (password == confirmPassword)
+                if (confirmPassword == SEKRET_PASSWORD)
                 {
                     if (_login == "USER") _finalAnswer = "Hello User";
                     else if (_login == "ADMIN") _finalAnswer = "Hello Administrator";
