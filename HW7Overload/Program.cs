@@ -11,18 +11,15 @@
     }
 
     static int Add(int a, int b) => a + b; // Int
+
     static double Add(double a, double b) => a + b; // Double
+    
     static string Add(string a, string b) // String
     {
-        bool successfulParce;
-        double aDouble;
-        double bDouble;
-        double result;
+        bool successfulParce = double.TryParse(a, out double aDouble);
+        successfulParce = double.TryParse(b, out double bDouble);
 
-        successfulParce = double.TryParse(a, out aDouble);
-        successfulParce = double.TryParse(b, out bDouble);
-
-        result = aDouble + bDouble;
+        double result = aDouble + bDouble;
         return result.ToString();
     }
 }
