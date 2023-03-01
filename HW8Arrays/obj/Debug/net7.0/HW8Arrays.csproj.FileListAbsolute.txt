@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW8Arrays\bin\Debug\net7.0\HW8Arrays.exe
+D:\Projects\Hillels_Home_Works\HW8Arrays\bin\Debug\net7.0\HW8Arrays.deps.json
+D:\Projects\Hillels_Home_Works\HW8Arrays\bin\Debug\net7.0\HW8Arrays.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW8Arrays\bin\Debug\net7.0\HW8Arrays.dll
+D:\Projects\Hillels_Home_Works\HW8Arrays\bin\Debug\net7.0\HW8Arrays.pdb
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.dll
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\refint\HW8Arrays.dll
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.pdb
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\HW8Arrays.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW8Arrays\obj\Debug\net7.0\ref\HW8Arrays.dll
