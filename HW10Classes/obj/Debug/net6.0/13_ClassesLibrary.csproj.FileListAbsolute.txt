@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW10Classes\bin\Debug\net6.0\13_ClassesLibrary.exe
+D:\Projects\Hillels_Home_Works\HW10Classes\bin\Debug\net6.0\13_ClassesLibrary.deps.json
+D:\Projects\Hillels_Home_Works\HW10Classes\bin\Debug\net6.0\13_ClassesLibrary.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW10Classes\bin\Debug\net6.0\13_ClassesLibrary.dll
+D:\Projects\Hillels_Home_Works\HW10Classes\bin\Debug\net6.0\13_ClassesLibrary.pdb
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.dll
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\refint\13_ClassesLibrary.dll
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.pdb
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\13_ClassesLibrary.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW10Classes\obj\Debug\net6.0\ref\13_ClassesLibrary.dll
