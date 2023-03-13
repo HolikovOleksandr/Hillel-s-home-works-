@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\bin\Debug\net7.0\HW11InheritancePolymorphism.exe
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\bin\Debug\net7.0\HW11InheritancePolymorphism.deps.json
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\bin\Debug\net7.0\HW11InheritancePolymorphism.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\bin\Debug\net7.0\HW11InheritancePolymorphism.dll
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\bin\Debug\net7.0\HW11InheritancePolymorphism.pdb
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.dll
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\refint\HW11InheritancePolymorphism.dll
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.pdb
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\HW11InheritancePolymorphism.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW11InheritancePolymorphism\obj\Debug\net7.0\ref\HW11InheritancePolymorphism.dll
