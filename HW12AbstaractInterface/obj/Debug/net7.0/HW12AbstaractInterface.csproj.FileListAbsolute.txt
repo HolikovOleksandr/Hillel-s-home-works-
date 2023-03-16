@@ -1,0 +1,15 @@
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\bin\Debug\net7.0\HW12AbstaractInterface.exe
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\bin\Debug\net7.0\HW12AbstaractInterface.deps.json
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\bin\Debug\net7.0\HW12AbstaractInterface.runtimeconfig.json
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\bin\Debug\net7.0\HW12AbstaractInterface.dll
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\bin\Debug\net7.0\HW12AbstaractInterface.pdb
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.csproj.AssemblyReference.cache
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.AssemblyInfoInputs.cache
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.AssemblyInfo.cs
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.csproj.CoreCompileInputs.cache
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.dll
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\refint\HW12AbstaractInterface.dll
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.pdb
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\HW12AbstaractInterface.genruntimeconfig.cache
+D:\Projects\Hillels_Home_Works\HW12AbstaractInterface\obj\Debug\net7.0\ref\HW12AbstaractInterface.dll
