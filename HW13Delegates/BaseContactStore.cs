@@ -42,5 +42,4 @@ public abstract class BaseContactStore : IEnumerable<IContact>, IManageable
 
     public abstract IEnumerable<IContact> GetByPhoneNumber(string phoneNumber);
     // =====================================================================
-
 }

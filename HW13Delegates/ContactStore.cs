@@ -6,8 +6,6 @@ namespace HW13Delegates
     {
         public ContactStore(IContactProvider contactProvider) : base(contactProvider) { }
 
-        public override void Create(IContact contact) => _contacts.Add(contact);
-
         public override IContact GetById(int id)
         {
             IContact? contactById = null;
@@ -38,14 +36,49 @@ namespace HW13Delegates
             return list;
         }
 
+        public override void Create(IContact contact)
+        {
+            try
+            {
+                foreach (var item in _contacts)
+                {
+                    if (item.Name != contact.Name)
+                    {
+                        _contacts.Add(contact);
+                        break;
+                    }
+                }
+            }
+            catch (DeniedOperationException e)
+            {
+                Exception exception = new DeniedOperationException($"Contact with {nameof(contact.Name)} {contact.Name} is already exists");
+                Console.WriteLine(e.Message);
+            }
+        }
+
         public override bool Remove(int id)
         {
             IContact? contactById = null;
 
             foreach (var contact in _contacts)
-                if (contact.Id == id) contactById = contact;
-
-            return _contacts.Remove(contactById!);
+            {
+                if (contact.Id == id)
+                {
+                    return _contacts.Remove(contact);
+                }
+                else
+                {
+                    try
+                    {
+                        if (contactById.Id != id) ;
+                    }
+                    catch (DeniedOperationException e)
+                    {
+                        Exception exception = new DeniedOperationException($"Contact with {nameof(id)} {contactById.Id} is not exists");
+                        Console.WriteLine(e.Message); ;
+                    }
+                }
+            }
         }
 
         public override void Update(IContact contact)
@@ -60,3 +93,33 @@ namespace HW13Delegates
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try
+// {
+//     foreach (var contact in _contacts)
+//     {
+//         if (contact.Id == id)
+//         {
+//             contactById = contact;
+//             return _contacts.Remove(contact);
+//         }
+//     }
+// }
+// catch (DeniedOperationException e) when (id != contactById?.Id)
+// {
+//     Console.WriteLine(e.Message);
+//     throw new DeniedOperationException($"Contact with {nameof(id)} {contactById?.Id} is not exists");
+// }

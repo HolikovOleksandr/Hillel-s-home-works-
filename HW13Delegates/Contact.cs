@@ -6,5 +6,8 @@ public class Contact : IContact
     public string Name { get; set; }
     public string PhoneNumber { get; set; }
 
-    public override string ToString() => $"{Id}, {Name}, {PhoneNumber}";
+    public override string ToString()
+    {
+        return $"{nameof(Name)}: {Name}\n{nameof(PhoneNumber)}: {PhoneNumber}";
+    }
 }
