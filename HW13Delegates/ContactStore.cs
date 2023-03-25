@@ -38,47 +38,26 @@ namespace HW13Delegates
 
         public override void Create(IContact contact)
         {
-            try
+            var message = $"Contact with {nameof(contact.Name)} {contact.Name} is already exists";
+
+            foreach (var existedContact in _contacts)
             {
-                foreach (var item in _contacts)
+                if (existedContact.Name == contact.Name)
                 {
-                    if (item.Name != contact.Name)
-                    {
-                        _contacts.Add(contact);
-                        break;
-                    }
+                    throw new DeniedOperationException(message);
                 }
-            }
-            catch (DeniedOperationException e)
-            {
-                Exception exception = new DeniedOperationException($"Contact with {nameof(contact.Name)} {contact.Name} is already exists");
-                Console.WriteLine(e.Message);
+
+                _contacts.Add(contact);
             }
         }
 
         public override bool Remove(int id)
         {
-            IContact? contactById = null;
+            var contactToRemove = GetById(id);
+            var message = $"Contact with {nameof(id)} {contactToRemove.Id} is not exists";
 
-            foreach (var contact in _contacts)
-            {
-                if (contact.Id == id)
-                {
-                    return _contacts.Remove(contact);
-                }
-                else
-                {
-                    try
-                    {
-                        if (contactById.Id != id) ;
-                    }
-                    catch (DeniedOperationException e)
-                    {
-                        Exception exception = new DeniedOperationException($"Contact with {nameof(id)} {contactById.Id} is not exists");
-                        Console.WriteLine(e.Message); ;
-                    }
-                }
-            }
+            if (contactToRemove == null) throw new DeniedOperationException(message);
+            return _contacts.Remove(contactToRemove);
         }
 
         public override void Update(IContact contact)
@@ -93,33 +72,3 @@ namespace HW13Delegates
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// try
-// {
-//     foreach (var contact in _contacts)
-//     {
-//         if (contact.Id == id)
-//         {
-//             contactById = contact;
-//             return _contacts.Remove(contact);
-//         }
-//     }
-// }
-// catch (DeniedOperationException e) when (id != contactById?.Id)
-// {
-//     Console.WriteLine(e.Message);
-//     throw new DeniedOperationException($"Contact with {nameof(id)} {contactById?.Id} is not exists");
-// }
