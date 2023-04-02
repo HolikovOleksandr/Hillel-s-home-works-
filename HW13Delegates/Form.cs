@@ -12,13 +12,13 @@ public class Form
         var contact = new Contact();
 
         Console.WriteLine(ASK_ID);
-        contact.Id = int.Parse(Console.ReadLine());
+        contact.Id = int.Parse(Console.ReadLine()!);
 
         Console.WriteLine(ASK_NAME);
-        contact.Name = Console.ReadLine();
+        contact.Name = Console.ReadLine()!;
 
         Console.WriteLine(ASK_PHONE);
-        contact.PhoneNumber = Console.ReadLine();
+        contact.PhoneNumber = Console.ReadLine()!;
 
         return contact;
     }
@@ -26,7 +26,7 @@ public class Form
     public int FillId()
     {
         Console.WriteLine(ASK_ID);
-        var id = int.Parse(Console.ReadLine());
+        var id = int.Parse(Console.ReadLine()!);
 
         return id;
     }

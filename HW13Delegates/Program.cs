@@ -6,11 +6,15 @@ internal class Program
 
     static void Main(string[] args)
     {
-        InMemoryContactProvider contactProvider = new InMemoryContactProvider();
-        ContactStore contactBook = new ContactStore(contactProvider);
+        var contactProvider = new PersistentContactProvider();
+        var contactBook = new ContactStore(contactProvider);
+
+        contactBook.SaveEvent += contactProvider.Save;
 
         contactBook.Create(new Contact { Id = 1, Name = "Oleksandr", PhoneNumber = "0983891691" });
         contactBook.Create(new Contact { Id = 2, Name = "Olha", PhoneNumber = "0500863359" });
+        contactBook.Create(new Contact { Id = 3, Name = "Oleksandr", PhoneNumber = "0983891691" });
+        contactBook.Create(new Contact { Id = 4, Name = "Olha", PhoneNumber = "0500863359" });
 
         var menu = new Menu();
         var form = new Form();
@@ -64,13 +68,14 @@ internal class Program
                         break;
                 }
             }
-            catch (DeniedOperationException e)
+            catch (DeniedOperationException exception)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(exception.Message);
             }
-            catch (Exception e)
+            catch (Exception exception)
             {
                 Console.WriteLine("Ooops... Something went wrong!");
+                Console.WriteLine(exception.Message);
             }
         }
     }

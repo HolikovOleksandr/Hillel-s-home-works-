@@ -2,9 +2,11 @@ using HomeWork.Interfaces;
 
 namespace HW13Delegates
 {
-    public class ContactStore : BaseContactStore
+    public class ContactStore : BaseContactStore, INotifiable
     {
         public ContactStore(IContactProvider contactProvider) : base(contactProvider) { }
+        
+        public event SaveDelegate SaveEvent;
 
         public override IContact GetById(int id)
         {
@@ -49,6 +51,8 @@ namespace HW13Delegates
 
                 _contacts.Add(contact);
             }
+
+            SaveEvent.Invoke(_contacts);
         }
 
         public override bool Remove(int id)
@@ -58,6 +62,8 @@ namespace HW13Delegates
 
             if (contactToRemove == null) throw new DeniedOperationException(message);
             return _contacts.Remove(contactToRemove);
+
+            SaveEvent.Invoke(_contacts);
         }
 
         public override void Update(IContact contact)
@@ -69,6 +75,8 @@ namespace HW13Delegates
 
             contactToUpdate!.Name = contact.Name;
             contactToUpdate.PhoneNumber = contact.PhoneNumber;
+
+            SaveEvent.Invoke(_contacts);
         }
     }
 }
