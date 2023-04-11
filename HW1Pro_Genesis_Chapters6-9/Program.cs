@@ -47,7 +47,7 @@
         Divider.WriteDivider();
 
         Console.WriteLine("Later");
-        Console.WriteLine(noah.Name + nameof(noah.ReleaseDove));
+        Console.WriteLine(noah.Name + " " + nameof(noah.ReleaseDove));
         Console.WriteLine(noah.GetEveryoneOutOfArk());
     }
 }

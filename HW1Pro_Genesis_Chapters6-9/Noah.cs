@@ -19,7 +19,7 @@
     {
         if (ReleaseDove() == "Olive live")
         {
-            return Introduce() + "Brings all the survivors out of the ark and continue a life without frends";
+            return Introduce() + " brings all the survivors out of the ark and continue a life without frends";
         }
         else
         {
