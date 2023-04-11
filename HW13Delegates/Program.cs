@@ -4,7 +4,7 @@ internal class Program
 {
     static string divider = new string('*', 20);
 
-    static void Main(string[] args)
+    static void Main(int[] args)
     {
         var contactProvider = new PersistentContactProvider();
         var contactBook = new ContactStore(contactProvider);

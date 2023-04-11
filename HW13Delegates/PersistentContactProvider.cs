@@ -7,7 +7,7 @@ public class PersistentContactProvider : IContactSaveable, IContactProvider
     public IEnumerable<IContact> Get()
     {
         var contacts = new List<IContact>();
-
+    
         try
         {
             using (StreamReader file = new StreamReader("contacts.txt"))
